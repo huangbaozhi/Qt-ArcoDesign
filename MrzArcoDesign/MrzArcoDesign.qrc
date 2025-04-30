@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/title/title_avatar_button.png</file>
+        <file>images/title/title_logo_button.png</file>
+        <file>images/title/title_search_button.png</file>
+        <file>images/title/title_thememode_button.png</file>
+        <file>images/title/title_voice_button.png</file>
+        <file>images/title/title_translate_button.png</file>
+        <file>images/title/title_background_button.png</file>
+    </qresource>
+</RCC>
