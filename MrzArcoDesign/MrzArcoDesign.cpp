@@ -1,6 +1,8 @@
+#pragma execution_character_set("utf-8")
 #include "stdafx.h"
 #include "MrzArcoDesign.h"
 #include "MrzTitleBarWidget.h"
+#include "MrzLeftMenuBarWidget.h"
 
 #include <QHBoxLayout>
 #include <QVBoxLayout>
@@ -28,7 +30,16 @@ void MrzArcoDesign::initUi()
 
     m_pMrzTitleBarWidget = new MrzTitleBarWidget(this);
     pMainLyt->addWidget(m_pMrzTitleBarWidget);
+    //pMainLyt->addStretch();
+
+    QHBoxLayout* pHLyt = new QHBoxLayout;
+    pHLyt->setContentsMargins(0, 0, 0, 0);
+    pMainLyt->addLayout(pHLyt);
     pMainLyt->addStretch();
+
+    m_pMrzLeftMenuBarWidget = new MrzLeftMenuBarWidget(this);
+    pHLyt->addWidget(m_pMrzLeftMenuBarWidget);
+    pHLyt->addStretch();
 
 
 }

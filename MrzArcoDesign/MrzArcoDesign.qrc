@@ -7,5 +7,14 @@
         <file>images/title/title_voice_button.png</file>
         <file>images/title/title_translate_button.png</file>
         <file>images/title/title_background_button.png</file>
+        <file>images/menu/left_menu_dashboard.png</file>
+        <file>images/menu/left_menu_datavcisualizetion.png</file>
+        <file>images/menu/left_menu_detailspage.png</file>
+        <file>images/menu/left_menu_dropdown_arrow.png</file>
+        <file>images/menu/left_menu_exceptionpage.png</file>
+        <file>images/menu/left_menu_formpagen.png</file>
+        <file>images/menu/left_menu_listpage.png</file>
+        <file>images/menu/left_menu_personalcenter.png</file>
+        <file>images/menu/left_menu_resultspage.png</file>
     </qresource>
 </RCC>

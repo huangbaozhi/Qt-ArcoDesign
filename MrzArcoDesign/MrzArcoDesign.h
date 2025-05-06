@@ -8,6 +8,7 @@
 //QT_END_NAMESPACE
 
 class MrzTitleBarWidget;
+class MrzLeftMenuBarWidget;
 
 class MrzArcoDesign : public QWidget
 {
@@ -24,4 +25,5 @@ private:
     //Ui::MrzArcoDesignClass *ui;
 
     MrzTitleBarWidget* m_pMrzTitleBarWidget;
+    MrzLeftMenuBarWidget* m_pMrzLeftMenuBarWidget;
 };

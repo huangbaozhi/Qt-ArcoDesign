@@ -1,0 +1,8 @@
+*.autosave
+*.vs
+
+x64/*
+Debug/*
+
+MrzArcoDesign/*.user
+
