@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MrzArcoDesign.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="View\MrzLeftMenuBarWidget.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\MrzTitleBarWidget.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MrzArcoDesign.h" />
+    <QtMoc Include="View\MrzLeftMenuBarWidget.h">
+      <Filter>View</Filter>
+    </QtMoc>
+    <QtMoc Include="View\MrzTitleBarWidget.h">
+      <Filter>View</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="View">
+      <UniqueIdentifier>{2d685213-6657-4f33-b10e-be2c8c3e940d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resourceUi">
+      <UniqueIdentifier>{10348aa5-ffab-4577-8388-d3545b867864}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MrzArcoDesign.ui">
+      <Filter>resourceUi</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MrzArcoDesign.qrc">
+      <Filter>resourceUi</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>
