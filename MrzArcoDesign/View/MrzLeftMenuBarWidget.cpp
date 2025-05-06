@@ -31,13 +31,17 @@ void MrzLeftMenuBarWidget::initUi()
 	pMainLyt->addStretch();
 
 	m_pTreeWidget = new QTreeWidget(this);
+	m_pTreeWidget->setRootIsDecorated(true);
+	m_pTreeWidget->setFrameStyle(QFrame::NoFrame);
+
+	pVLyt->addSpacing(0);
 	pVLyt->addWidget(m_pTreeWidget);
 	pVLyt->addStretch();
 
-	m_pTreeWidget->setFixedSize(200, 360);
+	m_pTreeWidget->setFixedSize(200, 840);
 	m_pTreeWidget->setHeaderHidden(true);
 	m_pTreeWidget->setIndentation(10);
-	m_pTreeWidget->setStyleSheet("QTreeWidget::item{height:40px;}");
+	m_pTreeWidget->setStyleSheet("QTreeWidget::item{height:40px;background-color: rgba(255,255,255,1);color: rgba(16,16,16,1);font-size: 14px;text-align: center;font-family: -regular;border: 0px;}");
 
 	QTreeWidgetItem* pDashboardItem = new QTreeWidgetItem(m_pTreeWidget, QStringList(QStringLiteral("仪表盘")));
 	QTreeWidgetItem* pDataVisualizationItem = new QTreeWidgetItem(m_pTreeWidget, QStringList(QStringLiteral("数据可视化")));
