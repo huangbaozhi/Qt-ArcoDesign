@@ -47,16 +47,49 @@ void MrzWorkBenchWidget::initUi()
 	QLabel* pDividerLbl = new QLabel(this);
 	pDividerLbl->setFixedSize(864, 1);
 	pDividerLbl->setStyleSheet("QLabel{background-color: rgba(255,255,255,1);border: 1px solid rgba(242,243,245,1);}");
+	QLabel* pDividerLbl_2 = new QLabel(this);
+	pDividerLbl_2->setFixedSize(864, 1);
+	pDividerLbl_2->setStyleSheet("QLabel{background-color: rgba(255,255,255,1);border: 1px solid rgba(242,243,245,1);}");
 
 	// ÄÚÈÝ
+	QHBoxLayout* pWelcomSubLyt = new QHBoxLayout;
+	pWelcomSubLyt->setContentsMargins(0, 0, 0, 0);
 	m_pMrzWelcomSubLabel = new MrzWelcomSubLabel(this);
+
+	QLabel* phDividerLbl = new QLabel(this);
+	phDividerLbl->setFixedSize(1, 60);
+	phDividerLbl->setStyleSheet("QLabel{background-color: rgba(255,255,255,1);border: 1px solid rgba(242,243,245,1);}");
+	QLabel* phDividerLbl_2 = new QLabel(this);
+	phDividerLbl_2->setFixedSize(1, 60);
+	phDividerLbl_2->setStyleSheet("QLabel{background-color: rgba(255,255,255,1);border: 1px solid rgba(242,243,245,1);}");
+	QLabel* phDividerLbl_3 = new QLabel(this);
+	phDividerLbl_3->setFixedSize(1, 60);
+	phDividerLbl_3->setStyleSheet("QLabel{background-color: rgba(255,255,255,1);border: 1px solid rgba(242,243,245,1);}");
+	//QLabel* phDividerLbl_4 = new QLabel(this);
+	//phDividerLbl_4->setFixedSize(1, 60);
+	//phDividerLbl_4->setStyleSheet("QLabel{background-color: rgba(255,255,255,1);border: 1px solid rgba(242,243,245,1);}");
+
+	m_pMrzWelcomSubLabel_2 = new MrzWelcomSubLabel(this);
+	m_pMrzWelcomSubLabel_3 = new MrzWelcomSubLabel(this);
+	m_pMrzWelcomSubLabel_4 = new MrzWelcomSubLabel(this);
+
+	pWelcomSubLyt->addWidget(m_pMrzWelcomSubLabel);
+	pWelcomSubLyt->addWidget(phDividerLbl);
+	pWelcomSubLyt->addWidget(m_pMrzWelcomSubLabel_2);
+	pWelcomSubLyt->addWidget(phDividerLbl_2);
+	pWelcomSubLyt->addWidget(m_pMrzWelcomSubLabel_3);
+	pWelcomSubLyt->addWidget(phDividerLbl_3);
+	pWelcomSubLyt->addWidget(m_pMrzWelcomSubLabel_4);
+	//pWelcomSubLyt->addWidget(phDividerLbl);
 
 	pTitleLyt->addSpacing(20);
 	pTitleLyt->addWidget(pWelcomeLogo);
 	pTitleLyt->addSpacing(20);
 	pTitleLyt->addWidget(pDividerLbl);
 	pTitleLyt->addSpacing(20);
-	pTitleLyt->addWidget(m_pMrzWelcomSubLabel);
+	pTitleLyt->addLayout(pWelcomSubLyt);
+	pTitleLyt->addSpacing(20);
+	pTitleLyt->addWidget(pDividerLbl_2);
 	pTitleLyt->addStretch();
 
 	pWelcomeLyt->addSpacing(17);

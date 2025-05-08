@@ -17,4 +17,7 @@ private:
 
 private:
 	MrzWelcomSubLabel* m_pMrzWelcomSubLabel;
+	MrzWelcomSubLabel* m_pMrzWelcomSubLabel_2;
+	MrzWelcomSubLabel* m_pMrzWelcomSubLabel_3;
+	MrzWelcomSubLabel* m_pMrzWelcomSubLabel_4;
 };
