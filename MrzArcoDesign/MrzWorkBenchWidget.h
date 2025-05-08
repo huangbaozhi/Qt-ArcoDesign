@@ -3,6 +3,7 @@
 #include <QWidget>
 
 class MrzWelcomSubLabel;
+class MrzPopularOnlineWidget;
 
 class MrzWorkBenchWidget  : public QWidget
 {
@@ -20,4 +21,7 @@ private:
 	MrzWelcomSubLabel* m_pMrzWelcomSubLabel_2;
 	MrzWelcomSubLabel* m_pMrzWelcomSubLabel_3;
 	MrzWelcomSubLabel* m_pMrzWelcomSubLabel_4;
+
+	MrzPopularOnlineWidget* m_pMrzPopularOnlineWidget;
+
 };

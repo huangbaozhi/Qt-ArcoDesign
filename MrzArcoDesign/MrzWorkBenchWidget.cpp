@@ -2,6 +2,7 @@
 #include "stdafx.h"
 #include "MrzWorkBenchWidget.h"
 #include "MrzWelcomSubLabel.h"
+#include "MrzPopularOnlineWidget.h"
 
 #include <QLabel>
 #include <QPushButton>
@@ -96,7 +97,19 @@ void MrzWorkBenchWidget::initUi()
 	pWelcomeLyt->addLayout(pTitleLyt);
 	pWelcomeLyt->addStretch();
 
+	QWidget* pRightWgt = new QWidget(this);
+	pRightWgt->setFixedSize(280, 361);
+	pRightWgt->setStyleSheet(strStyle);
+	QVBoxLayout* pRightLyt = new QVBoxLayout(pRightWgt);
+	QLabel* pTitleLbl = new QLabel(this);
+	pTitleLbl->setText(u8"线上热门内容");
+	m_pMrzPopularOnlineWidget = new MrzPopularOnlineWidget(this);
+	pRightLyt->addWidget(pTitleLbl);
+	pRightLyt->addWidget(m_pMrzPopularOnlineWidget);
+
 	pTopLyt->addWidget(pWelcomeWgt);
+	pTopLyt->addSpacing(16);
+	pTopLyt->addWidget(pRightWgt);
 	pTopLyt->addStretch();
 
 	pMainLyt->addLayout(pTopLyt);

@@ -16,6 +16,9 @@
     <ClCompile Include="MrzWelcomSubLabel.cpp">
       <Filter>View\WelcomView\Subcomponents</Filter>
     </ClCompile>
+    <ClCompile Include="MrzPopularOnlineWidget.cpp">
+      <Filter>View\WelcomView\Subcomponents</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -32,6 +35,9 @@
       <Filter>View\WelcomView</Filter>
     </QtMoc>
     <QtMoc Include="MrzWelcomSubLabel.h">
+      <Filter>View\WelcomView\Subcomponents</Filter>
+    </QtMoc>
+    <QtMoc Include="MrzPopularOnlineWidget.h">
       <Filter>View\WelcomView\Subcomponents</Filter>
     </QtMoc>
   </ItemGroup>
