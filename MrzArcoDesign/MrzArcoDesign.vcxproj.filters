@@ -10,6 +10,12 @@
     <ClCompile Include="View\MrzTitleBarWidget.cpp">
       <Filter>View</Filter>
     </ClCompile>
+    <ClCompile Include="MrzWorkBenchWidget.cpp">
+      <Filter>View\WelcomView</Filter>
+    </ClCompile>
+    <ClCompile Include="MrzWelcomSubLabel.cpp">
+      <Filter>View\WelcomView\Subcomponents</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -22,6 +28,12 @@
     <QtMoc Include="View\MrzTitleBarWidget.h">
       <Filter>View</Filter>
     </QtMoc>
+    <QtMoc Include="MrzWorkBenchWidget.h">
+      <Filter>View\WelcomView</Filter>
+    </QtMoc>
+    <QtMoc Include="MrzWelcomSubLabel.h">
+      <Filter>View\WelcomView\Subcomponents</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="View">
@@ -29,6 +41,12 @@
     </Filter>
     <Filter Include="resourceUi">
       <UniqueIdentifier>{10348aa5-ffab-4577-8388-d3545b867864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\WelcomView">
+      <UniqueIdentifier>{9b656151-3cf5-4178-9517-54a1a3afa5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\WelcomView\Subcomponents">
+      <UniqueIdentifier>{8baef4e9-ef00-4b54-821e-0a88a87b7bd4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

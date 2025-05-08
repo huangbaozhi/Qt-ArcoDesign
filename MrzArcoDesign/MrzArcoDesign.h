@@ -9,6 +9,7 @@
 
 class MrzTitleBarWidget;
 class MrzLeftMenuBarWidget;
+class MrzWorkBenchWidget;
 
 class MrzArcoDesign : public QWidget
 {
@@ -26,4 +27,6 @@ private:
 
     MrzTitleBarWidget* m_pMrzTitleBarWidget;
     MrzLeftMenuBarWidget* m_pMrzLeftMenuBarWidget;
+
+    MrzWorkBenchWidget* m_pMrzWorkBenchWidget;
 };

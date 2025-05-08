@@ -16,5 +16,19 @@
         <file>images/menu/left_menu_listpage.png</file>
         <file>images/menu/left_menu_personalcenter.png</file>
         <file>images/menu/left_menu_resultspage.png</file>
+        <file>images/window/Content_delivery.png</file>
+        <file>images/window/Content_Management.png</file>
+        <file>images/window/Content_Statistics.png</file>
+        <file>images/window/Online_Promotion.png</file>
+        <file>images/window/picture.png</file>
+        <file>images/window/pull_up.png</file>
+        <file>images/window/Senior_Management.png</file>
+        <file>images/window/Statistics.png</file>
+        <file>images/window/title.png</file>
+        <file>images/window/welcom_comment.png</file>
+        <file>images/window/welcom_new.png</file>
+        <file>images/window/welcom_onlinecontent_1.png</file>
+        <file>images/window/welcom_onlinecontent_2.png</file>
+        <file>images/window/welcom_totalcontent.png</file>
     </qresource>
 </RCC>

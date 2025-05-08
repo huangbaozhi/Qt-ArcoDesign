@@ -101,6 +101,8 @@
     </QtMoc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="MrzWelcomSubLabel.cpp" />
+    <ClCompile Include="MrzWorkBenchWidget.cpp" />
     <ClCompile Include="View\MrzLeftMenuBarWidget.cpp" />
     <ClCompile Include="View\MrzTitleBarWidget.cpp" />
     <QtMoc Include="View\MrzLeftMenuBarWidget.h" />
@@ -110,6 +112,8 @@
     <QtMoc Include="MrzArcoDesign.h" />
     <ClCompile Include="MrzArcoDesign.cpp" />
     <ClCompile Include="main.cpp" />
+    <QtMoc Include="MrzWorkBenchWidget.h" />
+    <QtMoc Include="MrzWelcomSubLabel.h" />
     <ClInclude Include="stdafx.h" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">Create</PrecompiledHeader>

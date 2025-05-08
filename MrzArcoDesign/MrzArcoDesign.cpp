@@ -3,6 +3,7 @@
 #include "MrzArcoDesign.h"
 #include "MrzTitleBarWidget.h"
 #include "MrzLeftMenuBarWidget.h"
+#include "MrzWorkBenchWidget.h"
 
 #include <QHBoxLayout>
 #include <QVBoxLayout>
@@ -20,7 +21,7 @@ MrzArcoDesign::MrzArcoDesign(QWidget *parent)
 
 MrzArcoDesign::~MrzArcoDesign()
 {
-    //delete ui;
+    delete m_pMrzLeftMenuBarWidget;
 }
 
 void MrzArcoDesign::initUi()
@@ -39,7 +40,9 @@ void MrzArcoDesign::initUi()
 
     m_pMrzLeftMenuBarWidget = new MrzLeftMenuBarWidget(this);
     pHLyt->addWidget(m_pMrzLeftMenuBarWidget);
-    pHLyt->addStretch();
 
+    m_pMrzWorkBenchWidget = new MrzWorkBenchWidget(this);
+    pHLyt->addWidget(m_pMrzWorkBenchWidget);
+    pHLyt->addStretch();
 
 }
