@@ -7,9 +7,12 @@ class MrzPopularOnlineWidget  : public QWidget
 	Q_OBJECT
 
 public:
-	MrzPopularOnlineWidget(QWidget *parent);
+	MrzPopularOnlineWidget(QString style, QWidget * parent);
 	~MrzPopularOnlineWidget();
 
 private:
 	void initUi();
+
+private:
+	QString mStyle;
 };

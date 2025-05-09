@@ -24,6 +24,7 @@ void MrzLeftMenuBarWidget::initUi()
 {
 	QHBoxLayout* pMainLyt = new QHBoxLayout(this);
 	pMainLyt->setContentsMargins(0, 0, 0, 0);
+	pMainLyt->setSpacing(0);
 
 	QVBoxLayout* pVLyt = new QVBoxLayout;
 	pVLyt->setContentsMargins(0, 0, 0, 0);

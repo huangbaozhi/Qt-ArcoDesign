@@ -12,6 +12,7 @@ MrzTitleBarWidget::MrzTitleBarWidget(QWidget *parent)
 	initUi();
 
 	setMinimumSize(1440, 60);
+	this->setStyleSheet("QWidget{background-color: rgba(255,255,255,1);box-shadow: 0px 6px 10px 0px rgba(78,89,105,0.06);}");
 }
 
 MrzTitleBarWidget::~MrzTitleBarWidget()
@@ -21,6 +22,7 @@ void MrzTitleBarWidget::initUi()
 {
 	QHBoxLayout* pMainLyt = new QHBoxLayout(this);
 	pMainLyt->setContentsMargins(0, 0, 0, 0);
+	pMainLyt->setSpacing(0);
 
 	QWidget* pTitleWgt = new QWidget;
 	pMainLyt->addWidget(pTitleWgt);

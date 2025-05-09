@@ -19,6 +19,18 @@
     <ClCompile Include="MrzPopularOnlineWidget.cpp">
       <Filter>View\WelcomView\Subcomponents</Filter>
     </ClCompile>
+    <ClCompile Include="MrzTrendingContentWidget.cpp">
+      <Filter>View\WelcomView\subWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="MrzContentAnalogyWidget.cpp">
+      <Filter>View\WelcomView\subWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="MrzAnnouncementWidget.cpp">
+      <Filter>View\WelcomView\subWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="MrzHelpDocumentWidget.cpp">
+      <Filter>View\WelcomView\subWidget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -40,6 +52,18 @@
     <QtMoc Include="MrzPopularOnlineWidget.h">
       <Filter>View\WelcomView\Subcomponents</Filter>
     </QtMoc>
+    <QtMoc Include="MrzTrendingContentWidget.h">
+      <Filter>View\WelcomView\subWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="MrzContentAnalogyWidget.h">
+      <Filter>View\WelcomView\subWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="MrzAnnouncementWidget.h">
+      <Filter>View\WelcomView\subWidget</Filter>
+    </QtMoc>
+    <QtMoc Include="MrzHelpDocumentWidget.h">
+      <Filter>View\WelcomView\subWidget</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="View">
@@ -53,6 +77,9 @@
     </Filter>
     <Filter Include="View\WelcomView\Subcomponents">
       <UniqueIdentifier>{8baef4e9-ef00-4b54-821e-0a88a87b7bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\WelcomView\subWidget">
+      <UniqueIdentifier>{22a12a52-3afd-4b69-a58b-7132751bb57e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
