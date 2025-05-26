@@ -5,7 +5,7 @@
 
 class QPushButton;
 class QTreeWidget;
-
+class QTreeWidgetItem;
 
 class MrzLeftMenuBarWidget : public QWidget
 {
@@ -15,8 +15,14 @@ public:
 	MrzLeftMenuBarWidget(QWidget *parent);
 	~MrzLeftMenuBarWidget();
 
+signals:
+	void signTreeItemClicked(QTreeWidgetItem* item, int column);
+
 private:
 	void initUi();
+	void connectFun();
+
+	void onTreeItemClicked(QTreeWidgetItem* item, int column);
 
 private:
 	//QVBoxLayout* m_pButtonLayout;

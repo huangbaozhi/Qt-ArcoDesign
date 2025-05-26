@@ -1,5 +1,5 @@
 #pragma execution_character_set("utf-8")
-#include "stdafx.h"
+//#include "stdafx.h"
 #include "MrzPopularOnlineWidget.h"
 
 #include <QLabel>
@@ -27,7 +27,7 @@ void MrzPopularOnlineWidget::initUi()
 	pButtonLyt->setContentsMargins(0, 0, 0, 0);
 	QPushButton* pButton = new QPushButton(this);
 	pButton->setFixedSize(32, 32);
-	QString styleBtn = QString("QPushButton{border-image:url(%1);background-size: 16px 16px;background-position: center;background-repeat: no-repeat;}").arg(mStyle);
+	QString styleBtn = QString("QPushButton{border-image:url(%1);background-position: center;background-repeat: no-repeat;}").arg(mStyle);
 	pButton->setStyleSheet(styleBtn);
 
 	pButtonLyt->addStretch();

@@ -31,6 +31,15 @@
     <ClCompile Include="MrzHelpDocumentWidget.cpp">
       <Filter>View\WelcomView\subWidget</Filter>
     </ClCompile>
+    <ClCompile Include="MrzPersonalCenterInterface.cpp">
+      <Filter>View\PersonalCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="View\PersonalCenter\MrzUserInformationWidget.cpp">
+      <Filter>View\PersonalCenter\UserInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DataVisualization\MrzAnalysisPageWidget.cpp">
+      <Filter>View\DataVisualization</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -64,6 +73,15 @@
     <QtMoc Include="MrzHelpDocumentWidget.h">
       <Filter>View\WelcomView\subWidget</Filter>
     </QtMoc>
+    <QtMoc Include="MrzPersonalCenterInterface.h">
+      <Filter>View\PersonalCenter</Filter>
+    </QtMoc>
+    <QtMoc Include="View\PersonalCenter\MrzUserInformationWidget.h">
+      <Filter>View\PersonalCenter\UserInformation</Filter>
+    </QtMoc>
+    <QtMoc Include="View\DataVisualization\MrzAnalysisPageWidget.h">
+      <Filter>View\DataVisualization</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="View">
@@ -80,6 +98,18 @@
     </Filter>
     <Filter Include="View\WelcomView\subWidget">
       <UniqueIdentifier>{22a12a52-3afd-4b69-a58b-7132751bb57e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\PersonalCenter">
+      <UniqueIdentifier>{b5cb382e-be9e-42de-a434-85f3f6455281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\PersonalCenter\UserInformation">
+      <UniqueIdentifier>{48a7fab2-58d9-46c9-8d23-1f0de2a278f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\PersonalCenter\UserSettings">
+      <UniqueIdentifier>{3eb541ee-11a1-4194-9db8-05b759ebc5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\DataVisualization">
+      <UniqueIdentifier>{daa36955-f2ea-4c9b-9735-bd2de347b8a0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

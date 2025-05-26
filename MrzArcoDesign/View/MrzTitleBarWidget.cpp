@@ -1,4 +1,4 @@
-#include "stdafx.h"
+//#include "stdafx.h"
 #include "MrzTitleBarWidget.h"
 
 #include <QHBoxLayout>
@@ -12,7 +12,7 @@ MrzTitleBarWidget::MrzTitleBarWidget(QWidget *parent)
 	initUi();
 
 	setMinimumSize(1440, 60);
-	this->setStyleSheet("QWidget{background-color: rgba(255,255,255,1);box-shadow: 0px 6px 10px 0px rgba(78,89,105,0.06);}");
+	this->setStyleSheet("QWidget{background-color: rgba(255,255,255,1);}");
 }
 
 MrzTitleBarWidget::~MrzTitleBarWidget()
@@ -48,10 +48,10 @@ void MrzTitleBarWidget::initUi()
 	m_pThemeModeBtn = new QPushButton(this);
 	m_pThemeModeBtn->setFixedSize(32, 32);
 
-	m_pSearchBtn->setStyleSheet("QPushButton{border-image:url(:/images/title/title_background_button.png);background-image:url(:/images/title/title_search_button.png);background-size: 16px 16px;background-position: center;background-repeat: no-repeat;}");
-	m_pTranslateBtn->setStyleSheet("QPushButton{border-image:url(:/images/title/title_background_button.png);background-image:url(:/images/title/title_translate_button.png);background-size: 16px 16px;background-position: center;background-repeat: no-repeat;}");
-	m_pVoiceBtn->setStyleSheet("QPushButton{border-image:url(:/images/title/title_background_button.png);background-image:url(:/images/title/title_voice_button.png);background-size: 16px 16px;background-position: center;background-repeat: no-repeat;}");
-	m_pThemeModeBtn->setStyleSheet("QPushButton{border-image:url(:/images/title/title_background_button.png);background-image:url(:/images/title/title_thememode_button.png);background-size: 16px 16px;background-position: center;background-repeat: no-repeat;}");
+	m_pSearchBtn->setStyleSheet("QPushButton{border-image:url(:/images/title/title_background_button.png);background-image:url(:/images/title/title_search_button.png);background-position: center;background-repeat: no-repeat;}");
+	m_pTranslateBtn->setStyleSheet("QPushButton{border-image:url(:/images/title/title_background_button.png);background-image:url(:/images/title/title_translate_button.png);background-position: center;background-repeat: no-repeat;}");
+	m_pVoiceBtn->setStyleSheet("QPushButton{border-image:url(:/images/title/title_background_button.png);background-image:url(:/images/title/title_voice_button.png);background-position: center;background-repeat: no-repeat;}");
+	m_pThemeModeBtn->setStyleSheet("QPushButton{border-image:url(:/images/title/title_background_button.png);background-image:url(:/images/title/title_thememode_button.png);background-position: center;background-repeat: no-repeat;}");
 
 	m_pAvatarLbl = new QLabel(this);
 	m_pAvatarLbl->setFixedSize(32, 32);

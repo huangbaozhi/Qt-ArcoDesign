@@ -1,5 +1,5 @@
 #pragma execution_character_set("utf-8")
-#include "stdafx.h"
+//#include "stdafx.h"
 #include "MrzWelcomSubLabel.h"
 
 #include <QLabel>

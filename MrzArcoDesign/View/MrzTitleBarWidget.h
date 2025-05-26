@@ -3,6 +3,7 @@
 #include <QWidget>
 
 class QPushButton;
+class QLabel;
 
 class MrzTitleBarWidget  : public QWidget
 {
